@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		features="src\\test\\java\\features\\Amazon.feature",
-		glue="amazonStepDefinitions",tags= {"@tag1"})
+		glue="amazonStepDefinitions")
 public class AmazonTestRunner {
 
 }

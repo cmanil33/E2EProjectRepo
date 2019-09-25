@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 116.847 s - in TestSuite
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 3, Time elapsed: 139.176 s <<< FAILURE! - in TestSuite
+initialize(Academy.validateTitle)  Time elapsed: 80.639 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at Academy.validateTitle.initialize(validateTitle.java:21)
+
+basePageNavigation(Academy.homePage)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at Academy.homePage.basePageNavigation(homePage.java:25)
+
+basePageNavigation(Academy.homePage)  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException: null value in entry: url=null
+	at Academy.homePage.basePageNavigation(homePage.java:25)
+
